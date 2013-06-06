@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Twt</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+	<title>Smells Like Bakin Cupcake Company</title>
+	<%= stylesheet_link_tag    "application", :media => "all" %>
+	<%= stylesheet_link_tag    "normalize", :media=> "screen" %>
+	<%= stylesheet_link_tag    "grid", :media=> "screen" %>
+	<%= javascript_include_tag "application" %>
+	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+	<%= stylesheet_link_tag    "style", :media=> "screen" %>
+	<%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<div class="container clearfix">
+		<%= yield %>
+	</div>
 </body>
 </html>

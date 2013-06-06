@@ -1,2 +1,52 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<div class="grid_4">
+<%= link_to image_tag("logo.gif", alt: "Smells like Bakin"), 'http://ahadshafiq.com' %>
+</div>
+<div class="grid_8 omega">
+<ul class="nav">
+	<li><a href = "#">About</a></li>
+	<li><a href = "#">Cupcakes &amp; Prices</a></li>
+	<li><a href = "#">Locations</a></li>
+	<li class="last"><a href = "#">Contact Us</a></li>
+</ul>
+</div>
+<div id="intro" class="grid_9">
+	<h1>Opposites really do attract, especially in our kitchen! We combine unexpected flavours that melt together to create ironically delicious deserts.
+	</h1>
+	<p><a href="#" class="btn">Browse Our Cupcakes</a></p>
+</div>
+<div class="grid_3 omega">
+<%= link_to image_tag("you-bake-me-blush.gif", alt: "You Bake me blush"), '#' %>
+</div>
+<div id="featured-cupcake" class="grid_7">
+	<h2>Cupcake of the Week</h2>
+	<p>This week's featured cupcake is the <a href="#">Avocado Choclate Cupcake </a>.Its strange combo of flavours will kick your taste buds into fiesta mode!</p>
+<%= link_to image_tag("featured-cupcake.jpg", alt: "AVocado Chocolate Cupcake"), "#" %>
+</div>
+
+<div id="new-cupcakes" class="grid_5 omega">
+	<h2>Fresh out the Oven</h2>
+	<p>Our newst cupcakes are <a href="#">Bacon Me Crazy</a> and <a href="#">Jalapeno So spicy</a>.</p>
+	<%= link_to image_tag("new-cupcake-bacon.jpg", alt: "Bacon me Crazy"), '#' %>
+	<%= link_to image_tag("new-cupcake-jalapeno.jpg", alt: "Jalapeno so spicy"), '#' %>
+</div>
+<div class="grid_7">
+<h2>Inside the Kitchen</h2>
+<p>Smells like bakin started in the garage of the husband wife duo Allison &amp; Joseph.</p>
+<p><a href="#" class="btn-small">Read More</a></p>
+</div>
+<div class="grid_5 omega">
+<h2>Get Bakin' with Us</h2>
+<div id="contact">
+	<p>Call us: <span>1-555-CUP-CAKE</span><br>
+	Email us: <a href="#">bakeon@smellslikebakin.com</a>
+	</p>
+</div>
+
+
+<p>We announce all of our new flavours first through Facebook &amp; Twitter, and even take requests!</p>
+<%= link_to image_tag("facebook.gif", alt:"Facebook"), "#" %></a>
+<%= link_to image_tag("twitter.gif", alt:"Twitter"), "#" %></a>
+</div>
+<div id="copyright" class="grid_12">
+	<p>&copy; 2012 Smells Like Bakin</p>
+</div>
